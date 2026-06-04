@@ -1,0 +1,70 @@
+def appstore_api_key_from_env
+  app_store_connect_api_key(
+    key_id: ENV.fetch("ASC_KEY_ID"),
+    issuer_id: ENV.fetch("ASC_ISSUER_ID"),
+    key_filepath: ENV.fetch("ASC_KEY_FILE"),
+    duration: 1200,
+    in_house: false
+  )
+end
+
+def ensure_required_env!
+  required = %w[ASC_KEY_ID ASC_ISSUER_ID ASC_KEY_FILE]
+  missing = required.select { |k| ENV[k].to_s.strip.empty? }
+  UI.user_error!("Missing required env vars: #{missing.join(', ')}") unless missing.empty?
+end
+
+def ipa_path_from_env_or_options(options)
+  path = options[:ipa].to_s.strip
+  path = ENV["IPA_PATH"].to_s.strip if path.empty?
+  UI.user_error!("Missing IPA path. Pass ipa:/path/to/App.ipa or set IPA_PATH.") if path.empty?
+  UI.user_error!("IPA file not found: #{path}") unless File.exist?(path)
+  path
+end
+
+platform :ios do
+  lane :deliver_metadata do
+    ensure_required_env!
+    api_key = appstore_api_key_from_env
+    deliver(
+      api_key: api_key,
+      force: true,
+      skip_binary_upload: true,
+      skip_screenshots: true,
+      submit_for_review: false,
+      automatic_release: false,
+      run_precheck_before_submit: false
+    )
+  end
+
+  lane :deliver_screenshots do
+    ensure_required_env!
+    api_key = appstore_api_key_from_env
+    deliver(
+      api_key: api_key,
+      force: true,
+      skip_binary_upload: true,
+      skip_metadata: true,
+      overwrite_screenshots: true,
+      submit_for_review: false,
+      automatic_release: false,
+      run_precheck_before_submit: false
+    )
+  end
+
+  lane :deliver_ipa do |options|
+    ensure_required_env!
+    api_key = appstore_api_key_from_env
+    deliver(
+      api_key: api_key,
+      ipa: ipa_path_from_env_or_options(options),
+      force: true,
+      skip_binary_upload: false,
+      skip_metadata: true,
+      skip_screenshots: true,
+      submit_for_review: false,
+      automatic_release: false,
+      run_precheck_before_submit: false
+    )
+  end
+end

@@ -1,0 +1,175 @@
+{
+  "generatedAt": "2026-05-20T00:00:00Z",
+  "chunks": [
+    {
+      "id": "guide-brickBlitz",
+      "title": "磚塊爆破 攻略與規則",
+      "body": "磚塊爆破 是 打磚塊 Breakout 風格遊戲。核心玩法：單指左右滑動球拍、短按加速彈、清除 80% 即過關。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "brickblitz",
+        "磚塊爆破",
+        "brick",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    },
+    {
+      "id": "guide-snakeEVO",
+      "title": "貪吃蛇進化 攻略與規則",
+      "body": "貪吃蛇進化 是 貪吃蛇 Snake 風格遊戲。核心玩法：紅色食物 +2、藍色食物加速、黃色食物穿牆、單機雙人對戰。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "snakeevo",
+        "貪吃蛇進化",
+        "snake",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    },
+    {
+      "id": "guide-stackAttack",
+      "title": "方塊疊疊樂 攻略與規則",
+      "body": "方塊疊疊樂 是 俄羅斯方塊 Tetris 風格遊戲。核心玩法：炸彈方塊、救援模式每局 2 次、每 500 分加速。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "stackattack",
+        "方塊疊疊樂",
+        "stack",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    },
+    {
+      "id": "guide-frogDash",
+      "title": "青蛙跳跳 攻略與規則",
+      "body": "青蛙跳跳 是 Frogger 風格遊戲。核心玩法：車道與河流、星星解鎖青蛙皮膚、夜間能見度降低。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "frogdash",
+        "青蛙跳跳",
+        "frog",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    },
+    {
+      "id": "guide-bubblePop",
+      "title": "泡泡消消 攻略與規則",
+      "body": "泡泡消消 是 Puzzle Bobble 風格遊戲。核心玩法：三同色消除、彩虹泡泡、每 5 關 Boss 泡泡。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "bubblepop",
+        "泡泡消消",
+        "bubble",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    },
+    {
+      "id": "guide-moleMania",
+      "title": "打地鼠狂熱 攻略與規則",
+      "body": "打地鼠狂熱 是 Whack-a-Mole 風格遊戲。核心玩法：金鼠 +3、炸彈鼠 -2、連打觸發狂熱模式。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "molemania",
+        "打地鼠狂熱",
+        "mole",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    },
+    {
+      "id": "guide-pinballPro",
+      "title": "彈珠台 攻略與規則",
+      "body": "彈珠台 是 Pinball 風格遊戲。核心玩法：三種主題台、Multiball、Extra Ball 軌道。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "pinballpro",
+        "彈珠台",
+        "pinball",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    },
+    {
+      "id": "guide-twentyFortyEight",
+      "title": "數字 2048 Plus 攻略與規則",
+      "body": "數字 2048 Plus 是 2048 風格遊戲。核心玩法：障礙格、乘法格、4096 / 8192 挑戰。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "twentyfortyeight",
+        "數字 2048 Plus",
+        "2048",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    },
+    {
+      "id": "guide-asteroidAce",
+      "title": "射擊隕石 攻略與規則",
+      "body": "射擊隕石 是 Space Invaders / Asteroids 風格遊戲。核心玩法：自動連射、補給箱升級武器、Boss 隕石。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "asteroidace",
+        "射擊隕石",
+        "asteroid",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    },
+    {
+      "id": "guide-gomokuGo",
+      "title": "連線五子棋 攻略與規則",
+      "body": "連線五子棋 是 五子棋 風格遊戲。核心玩法：10x10 / 15x15、禁手提示、15 秒計時模式。分數、關卡與解鎖狀態由 deterministic Swift service 計算，AI 只提供摘要與說明。",
+      "tokens": [
+        "gomokugo",
+        "連線五子棋",
+        "gomoku",
+        "攻略",
+        "離線",
+        "解鎖"
+      ],
+      "sourceName": "企劃案A_Pocket_Arcade.md",
+      "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+      "fetchedAt": "2026-05-20T00:00:00Z",
+      "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+    }
+  ]
+}

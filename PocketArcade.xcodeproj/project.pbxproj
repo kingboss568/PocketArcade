@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+		036B66A508714CB58C1C8FBD /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; COPY_PHASE_STRIP = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.9; TARGETED_DEVICE_FAMILY = "1,2"; COPY_PHASE_STRIP = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; }; name = Release; };
+		0457CA6C63D54443B2C91191 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3748595DD9740F7898DE254 /* AudioService.swift */; };
+		07DB63BC5CB54043A2421DEA /* GameCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcadeTests/GameCatalogTests.swift"; sourceTree = "<group>"; };
+		08664B96484947FC83C0B0C4 /* TwentyFortyEightEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB6AD327249AA9D7B4CA1 /* TwentyFortyEightEngine.swift */; };
+		0DA2514082DF47708F4EB3A7 /* Products */ = {isa = PBXGroup; children = (
+						2CD5B04216854E2B965BEAE6 /* PocketArcade.app */,
+						63D0CA2422DA46D486F7676E /* PocketArcadeTests.xctest */,
+					); name = Products; sourceTree = "<group>"; };
+		0FE8FB8FB50D4D9DACC246C4 /* ExportCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78E5505B494E6EAD90D173 /* ExportCoordinator.swift */; };
+		1066B205EAA041C48A8F0808 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+						867D5EA6720544C195E70726 /* resource */,
+						162810F3E1554ED3A7639D1E /* resource */,
+						3BCB03DD3D554EA3ADD91A28 /* resource */,
+						A940575D36EC44069B0689AC /* resource */,
+					); runOnlyForDeploymentPostprocessing = 0; };
+		106BF160B99845A5A024CB47 /* PinballProScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/PinballProScene.swift"; sourceTree = "<group>"; };
+		12EAC40DD6844C80809EAFF8 /* ArcadeSceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/ArcadeSceneFactory.swift"; sourceTree = "<group>"; };
+		15295AD72E864E0F8CB2DEFE /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Views/MainMenuView.swift"; sourceTree = "<group>"; };
+		162810F3E1554ED3A7639D1E /* GameCatalogSeed.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C415BBA27A248B684D060D1 /* GameCatalogSeed.json */; };
+		178E631DA4404756BAE6BDB0 /* BubblePopScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/BubblePopScene.swift"; sourceTree = "<group>"; };
+		1BF862AEBFA64C859CEB4C30 /* AppStore */ = {isa = PBXGroup; children = (
+						69CA7DDF8FC4489C89957DA8 /* app-store-copy.md */,
+						A672D5320D2F4470B9903660 /* privacy-nutrition-labels.md */,
+						699C496A9DFF4BD2891CDFA1 /* privacy-policy.md */,
+						3A32DED30186494AB4C71715 /* review-notes.md */,
+						DDBD18FEF02A402CAB5A551A /* screenshot-plan.md */,
+					); name = AppStore; sourceTree = "<group>"; };
+		1FBBB27B61C744AD99AC2B12 /* GomokuRuleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Services/GomokuRuleService.swift"; sourceTree = "<group>"; };
+		1FE046D70889429CB5DA88FF /* ArcadeSceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAC40DD6844C80809EAFF8 /* ArcadeSceneFactory.swift */; };
+		20C1BACDF4814777BC37EEC1 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+						570DAD08D99849AEA204EFC5 /* SharedCore in Frameworks */,
+					); runOnlyForDeploymentPostprocessing = 0; };
+		20D4FDD9C7AF402493DE24D4 = {isa = PBXGroup; children = (
+						5A65BBD913EF4593A2956DBC /* PocketArcade */,
+						B623518564F945FCA5C1DDBC /* PocketArcadeTests */,
+						1BF862AEBFA64C859CEB4C30 /* AppStore */,
+						F35AD50474FD48B8B38BC9D0 /* Docs */,
+						E6FA0140EA6747878B424F84 /* Packages */,
+						0DA2514082DF47708F4EB3A7 /* Products */,
+						E79702372D124525808D12A2 /* Frameworks */,
+					); sourceTree = "<group>"; };
+		23F8FE971084457DA7BB5FAE /* GameHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD862AC6AA74B35A969D7C0 /* GameHostView.swift */; };
+		2912230B53B74895946A68C0 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Models/GameModel.swift"; sourceTree = "<group>"; };
+		2C6C6BBC500045B4BD5B6DDE /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 4C1A1FA6B473462EA4E77C94 /* Project object */; proxyType = 1; remoteGlobalIDString = AD9AC48141D74D5B9ACF77CC; remoteInfo = PocketArcade; };
+		2CD5B04216854E2B965BEAE6 /* PocketArcade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketArcade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE8B456CC5E4F11A0A56F69 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README.md"; sourceTree = "<group>"; };
+		30B969199EAA47A9946AB696 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+						3BE7CC0D68EB4BE7BCD9149C /* source */,
+						DDA1330ED3684D95BC1A7F27 /* source */,
+						C803082E15B04E59A33A1F31 /* source */,
+						9451E971009B4338B32269FB /* source */,
+						9D974BE2AB314098964BD888 /* source */,
+						1FE046D70889429CB5DA88FF /* source */,
+						E965379FD8B34BDBB2463DDC /* source */,
+						64981FF0497C41619C1C2116 /* source */,
+						FD15D64E37244F068392CF54 /* source */,
+						D390FA0993A44ACA866B3545 /* source */,
+						7B11158250ED40A686ABE307 /* source */,
+						DCAAAEB0DF9846CE86B35722 /* source */,
+						56DCF8FA073D4A73B1FDBE41 /* source */,
+						585A0F7D478E47DFAF67008D /* source */,
+						CA56D12DC5D34F8083150AE6 /* source */,
+						BB9C269524D945C2A8BD3CC6 /* source */,
+						B641F9E7A64049AD8CAABF32 /* source */,
+						0457CA6C63D54443B2C91191 /* source */,
+						6D43FB71979B465E993CB156 /* source */,
+						0FE8FB8FB50D4D9DACC246C4 /* source */,
+						495D1E9C1BA84C7889B568DE /* source */,
+						E6D52C6B6A964EFF9D776BC8 /* source */,
+						7D01EFC54DFA410A841B11FE /* source */,
+						D11B76E50F47415A873CC003 /* source */,
+						F66A87E4C14A4AE98DAA1D31 /* source */,
+						08664B96484947FC83C0B0C4 /* source */,
+						619B4F1E70D04B4786CD3F1F /* source */,
+						764C83CC0CAE4304B0B60456 /* source */,
+						23F8FE971084457DA7BB5FAE /* source */,
+						7CF894C6993348ECA56B36B6 /* source */,
+						A29A44CA853843898E99C41D /* source */,
+						9BB345C4434B44D09CDDCAE1 /* source */,
+						68BCABEF75714A02BDF2D8E2 /* source */,
+						7886ABAC89A24AA0B013EDA3 /* source */,
+					); runOnlyForDeploymentPostprocessing = 0; };
+		326077B12CDF4B9894228AF9 /* GameCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB63BC5CB54043A2421DEA /* GameCatalogTests.swift */; };
+		32BCE28881194CDA82AE3B77 /* GomokuRuleServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcadeTests/GomokuRuleServiceTests.swift"; sourceTree = "<group>"; };
+		35DE614A32EE4029B0D9EBD8 /* TODO_PHASE_2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TODO_PHASE_2.md"; sourceTree = "<group>"; };
+		36EF367367A541CFBDB38D30 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Services/ColorExtensions.swift"; sourceTree = "<group>"; };
+		38D660CCCE284F1F94E0AF40 /* ArcadeCoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Views/ArcadeCoachView.swift"; sourceTree = "<group>"; };
+		3A32DED30186494AB4C71715 /* review-notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "AppStore/review-notes.md"; sourceTree = "<group>"; };
+		3B5CD77E56854C1E9974B817 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		3BCB03DD3D554EA3ADD91A28 /* RAGVectorIndex.json in Resources */ = {isa = PBXBuildFile; fileRef = 67B7EA924F1B41B386A2BE64 /* RAGVectorIndex.json */; };
+		3BE7CC0D68EB4BE7BCD9149C /* GameCatalogLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB0D5CA1844AD99182A5F0 /* GameCatalogLoader.swift */; };
+		3D2AB6AD327249AA9D7B4CA1 /* TwentyFortyEightEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Services/TwentyFortyEightEngine.swift"; sourceTree = "<group>"; };
+		3D9A02149F5D46C5B83B5532 /* RAGIndexLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Data/RAGIndexLoader.swift"; sourceTree = "<group>"; };
+		3F7AD94EDB5840EE9DCFF426 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		40E915FA2856480982D82027 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+						BDF8CB9FC2CD41CBA4BD0142 /* SharedCore in Frameworks */,
+						5D28E13A04AB48EAB68A6E31 /* framework */,
+						87EFE629734E405AB67AE7F1 /* framework */,
+						95CDC46BEEF643B79974AADE /* framework */,
+						DD00CDF08C10409EB9F4630F /* framework */,
+						C217A5E24842497F9DA14308 /* framework */,
+						B373DFA476D648D9A3D1225F /* framework */,
+						BE0526E2211A458088678131 /* framework */,
+						7748686512F04C7882A8A124 /* framework */,
+					); runOnlyForDeploymentPostprocessing = 0; };
+		42A95AC6406843E5A47F84CD /* PocketArcadeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/PocketArcadeApp.swift"; sourceTree = "<group>"; };
+		4684A470913541A5B1920E4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		495D1E9C1BA84C7889B568DE /* GameCenterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12917090EE4644A5799273 /* GameCenterService.swift */; };
+		4C0A3C5D573B44129B9F9CB4 /* GomokuGoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/GomokuGoScene.swift"; sourceTree = "<group>"; };
+		4C1A1FA6B473462EA4E77C94 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastSwiftUpdateCheck = 1540; LastUpgradeCheck = 1540; TargetAttributes = {AD9AC48141D74D5B9ACF77CC = {CreatedOnToolsVersion = 15.4;}; 5D9EBBA479F74300864A928D = {CreatedOnToolsVersion = 15.4; TestTargetID = AD9AC48141D74D5B9ACF77CC;}; }; }; buildConfigurationList = 73E55A304E45424E8D72FFD6 /* Build configuration list for PBXProject "PocketArcade" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = ( en, Base, "zh-Hant", ); mainGroup = 20D4FDD9C7AF402493DE24D4; packageReferences = ( E6A75943A4B3467A8A79F6A9 /* XCLocalSwiftPackageReference "Packages/SharedCore" */, ); productRefGroup = 0DA2514082DF47708F4EB3A7 /* Products */; projectDirPath = ""; projectRoot = ""; targets = ( AD9AC48141D74D5B9ACF77CC /* PocketArcade */, 5D9EBBA479F74300864A928D /* PocketArcadeTests */, ); };
+		535DBC3A01FB4652AC968867 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Services/PurchaseManager.swift"; sourceTree = "<group>"; };
+		53F3205450AA45F994A52F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketArcade/Info.plist"; sourceTree = "<group>"; };
+		56DCF8FA073D4A73B1FDBE41 /* MoleManiaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92485AC036046779B2D9260 /* MoleManiaScene.swift */; };
+		570DAD08D99849AEA204EFC5 /* SharedCore in Frameworks */ = {isa = PBXBuildFile; productRef = 993AC15F3E84482BA95D562A /* SharedCore */; };
+		585A0F7D478E47DFAF67008D /* PinballProScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BF160B99845A5A024CB47 /* PinballProScene.swift */; };
+		5A65BBD913EF4593A2956DBC /* PocketArcade */ = {isa = PBXGroup; children = (
+						9ECB0D5CA1844AD99182A5F0 /* GameCatalogLoader.swift */,
+						3D9A02149F5D46C5B83B5532 /* RAGIndexLoader.swift */,
+						2912230B53B74895946A68C0 /* GameModel.swift */,
+						A75D36AC7439435DA031F160 /* GameProgress.swift */,
+						42A95AC6406843E5A47F84CD /* PocketArcadeApp.swift */,
+						12EAC40DD6844C80809EAFF8 /* ArcadeSceneFactory.swift */,
+						A96E7C00BDEC4BFCA679E6DD /* AsteroidAceScene.swift */,
+						EC1D6A38104F4228BE510B6F /* BaseArcadeScene.swift */,
+						AC4C3A3755994C58AFBF6860 /* BrickBlitzScene.swift */,
+						178E631DA4404756BAE6BDB0 /* BubblePopScene.swift */,
+						C0C77E5302C44C8E9F695495 /* FrogDashScene.swift */,
+						4C0A3C5D573B44129B9F9CB4 /* GomokuGoScene.swift */,
+						F92485AC036046779B2D9260 /* MoleManiaScene.swift */,
+						106BF160B99845A5A024CB47 /* PinballProScene.swift */,
+						C09955D261B34C4CB09501F4 /* SnakeEVOScene.swift */,
+						FA9C3741E37344F2999ACB0C /* StackAttackScene.swift */,
+						7CF21968D6BB44D2AA1D19B6 /* TwentyFortyEightScene.swift */,
+						E3748595DD9740F7898DE254 /* AudioService.swift */,
+						36EF367367A541CFBDB38D30 /* ColorExtensions.swift */,
+						EA78E5505B494E6EAD90D173 /* ExportCoordinator.swift */,
+						7C12917090EE4644A5799273 /* GameCenterService.swift */,
+						8F9C62285A2146CFA354273B /* GameProgressStore.swift */,
+						1FBBB27B61C744AD99AC2B12 /* GomokuRuleService.swift */,
+						F822EE55DE594DCEA02EE4C4 /* NetworkMonitorService.swift */,
+						535DBC3A01FB4652AC968867 /* PurchaseManager.swift */,
+						3D2AB6AD327249AA9D7B4CA1 /* TwentyFortyEightEngine.swift */,
+						C97DF1E34C8446AC8510B4F5 /* AppRootView.swift */,
+						38D660CCCE284F1F94E0AF40 /* ArcadeCoachView.swift */,
+						6FD862AC6AA74B35A969D7C0 /* GameHostView.swift */,
+						15295AD72E864E0F8CB2DEFE /* MainMenuView.swift */,
+						895B68C0776841E5A5F7F973 /* OnboardingView.swift */,
+						9B1547AAFE4F4270B4C23F8A /* PaywallView.swift */,
+						872506E17C704B08B4BF1421 /* ScoreboardView.swift */,
+						605855F265CC41D38A0DD04C /* SettingsView.swift */,
+						F02F56D1C1E04181A180A10F /* Assets.xcassets */,
+						5C415BBA27A248B684D060D1 /* GameCatalogSeed.json */,
+						67B7EA924F1B41B386A2BE64 /* RAGVectorIndex.json */,
+						D6EAB73A88034D23B5D1275C /* PrivacyInfo.xcprivacy */,
+						53F3205450AA45F994A52F5F /* Info.plist */,
+						8B805B98A17148AF8DC2DC9E /* PocketArcade.entitlements */,
+					); name = PocketArcade; sourceTree = "<group>"; };
+		5C415BBA27A248B684D060D1 /* GameCatalogSeed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "PocketArcade/Resources/GameCatalogSeed.json"; sourceTree = "<group>"; };
+		5D28E13A04AB48EAB68A6E31 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A171C613784D4DB4234730 /* SpriteKit.framework */; };
+		5D9EBBA479F74300864A928D /* PocketArcadeTests */ = {isa = PBXNativeTarget; buildConfigurationList = BE68EEB03B754A02B61F60FE /* Build configuration list for PBXNativeTarget "PocketArcadeTests" */; buildPhases = ( 6016DAAF6AE942B59CE2E73B /* Sources */, 20C1BACDF4814777BC37EEC1 /* Frameworks */, 91E4FFE19C8F4517B7F204E5 /* Resources */, ); buildRules = ( ); dependencies = ( BBBF08D219D54478BE4EC707 /* PBXTargetDependency */, ); name = PocketArcadeTests; packageProductDependencies = ( 993AC15F3E84482BA95D562A /* SharedCore */, ); productName = PocketArcadeTests; productReference = 63D0CA2422DA46D486F7676E /* PocketArcadeTests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+		6016DAAF6AE942B59CE2E73B /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+						326077B12CDF4B9894228AF9 /* test source */,
+						659E4A15EAB74B38AE0AEA7C /* test source */,
+						E6CFC41CC0E948C39058137D /* test source */,
+						9D89425363234DB4965ACF75 /* test source */,
+					); runOnlyForDeploymentPostprocessing = 0; };
+		605855F265CC41D38A0DD04C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Views/SettingsView.swift"; sourceTree = "<group>"; };
+		619B4F1E70D04B4786CD3F1F /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97DF1E34C8446AC8510B4F5 /* AppRootView.swift */; };
+		63D0CA2422DA46D486F7676E /* PocketArcadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketArcadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64981FF0497C41619C1C2116 /* BaseArcadeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D6A38104F4228BE510B6F /* BaseArcadeScene.swift */; };
+		659E4A15EAB74B38AE0AEA7C /* GomokuRuleServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCE28881194CDA82AE3B77 /* GomokuRuleServiceTests.swift */; };
+		67B7EA924F1B41B386A2BE64 /* RAGVectorIndex.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "PocketArcade/Resources/RAGVectorIndex.json"; sourceTree = "<group>"; };
+		68BCABEF75714A02BDF2D8E2 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872506E17C704B08B4BF1421 /* ScoreboardView.swift */; };
+		699C496A9DFF4BD2891CDFA1 /* privacy-policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "AppStore/privacy-policy.md"; sourceTree = "<group>"; };
+		69CA7DDF8FC4489C89957DA8 /* app-store-copy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "AppStore/app-store-copy.md"; sourceTree = "<group>"; };
+		6D43FB71979B465E993CB156 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF367367A541CFBDB38D30 /* ColorExtensions.swift */; };
+		6FD862AC6AA74B35A969D7C0 /* GameHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Views/GameHostView.swift"; sourceTree = "<group>"; };
+		73E55A304E45424E8D72FFD6 /* Build configuration list for PBXProject "PocketArcade" */ = {isa = XCConfigurationList; buildConfigurations = ( 991309721D744A71988110D5 /* Debug */, 036B66A508714CB58C1C8FBD /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		764C83CC0CAE4304B0B60456 /* ArcadeCoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D660CCCE284F1F94E0AF40 /* ArcadeCoachView.swift */; };
+		76B9809E13F74829B23F327B /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = 7H7ZUG2WX8; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = PocketArcadeTests; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = net.boss888.pocketarcade.tests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketArcade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketArcade";}; name = Debug; };
+		7748686512F04C7882A8A124 /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30F7CB01C9B4EB290EDE799 /* SwiftData.framework */; };
+		7886ABAC89A24AA0B013EDA3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605855F265CC41D38A0DD04C /* SettingsView.swift */; };
+		7B11158250ED40A686ABE307 /* FrogDashScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C77E5302C44C8E9F695495 /* FrogDashScene.swift */; };
+		7C12917090EE4644A5799273 /* GameCenterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Services/GameCenterService.swift"; sourceTree = "<group>"; };
+		7CF21968D6BB44D2AA1D19B6 /* TwentyFortyEightScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/TwentyFortyEightScene.swift"; sourceTree = "<group>"; };
+		7CF894C6993348ECA56B36B6 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15295AD72E864E0F8CB2DEFE /* MainMenuView.swift */; };
+		7D01EFC54DFA410A841B11FE /* GomokuRuleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBBB27B61C744AD99AC2B12 /* GomokuRuleService.swift */; };
+		7E639423939542C799FFA7A6 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = 7H7ZUG2WX8; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = PocketArcadeTests; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = net.boss888.pocketarcade.tests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketArcade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketArcade";}; name = Release; };
+		867D5EA6720544C195E70726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02F56D1C1E04181A180A10F /* Assets.xcassets */; };
+		872506E17C704B08B4BF1421 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Views/ScoreboardView.swift"; sourceTree = "<group>"; };
+		87EFE629734E405AB67AE7F1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3FC6448D0F4DCB981DC0E9 /* StoreKit.framework */; };
+		895B68C0776841E5A5F7F973 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Views/OnboardingView.swift"; sourceTree = "<group>"; };
+		8A23B57BEDFC44FF952D8507 /* SELF_CHECK.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Docs/SELF_CHECK.md"; sourceTree = "<group>"; };
+		8B805B98A17148AF8DC2DC9E /* PocketArcade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketArcade/PocketArcade.entitlements"; sourceTree = "<group>"; };
+		8E3FC6448D0F4DCB981DC0E9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8F9C62285A2146CFA354273B /* GameProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Services/GameProgressStore.swift"; sourceTree = "<group>"; };
+		91E4FFE19C8F4517B7F204E5 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+					); runOnlyForDeploymentPostprocessing = 0; };
+		9451E971009B4338B32269FB /* GameProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D36AC7439435DA031F160 /* GameProgress.swift */; };
+		95CDC46BEEF643B79974AADE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85654B1FBE1425CAD6DD734 /* GameKit.framework */; };
+		971B7110F18B42CFB6E2BF43 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = PocketArcade/PocketArcade.entitlements; CODE_SIGN_IDENTITY = "Apple Distribution"; CODE_SIGN_STYLE = Manual; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_ASSET_PATHS = "PocketArcade/Preview\\ Content"; DEVELOPMENT_TEAM = 7H7ZUG2WX8; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PocketArcade/Info.plist; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = net.boss888.pocketarcade; PRODUCT_NAME = "$(TARGET_NAME)"; PROVISIONING_PROFILE_SPECIFIER = "Pocket Arcade App Store"; SWIFT_EMIT_LOC_STRINGS = YES;}; name = Release; };
+		991309721D744A71988110D5 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; COPY_PHASE_STRIP = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.9; TARGETED_DEVICE_FAMILY = "1,2"; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)"); SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; }; name = Debug; };
+		993AC15F3E84482BA95D562A /* SharedCore */ = {isa = XCSwiftPackageProductDependency; package = E6A75943A4B3467A8A79F6A9 /* XCLocalSwiftPackageReference "Packages/SharedCore" */; productName = SharedCore; };
+		9B1547AAFE4F4270B4C23F8A /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Views/PaywallView.swift"; sourceTree = "<group>"; };
+		9BB345C4434B44D09CDDCAE1 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1547AAFE4F4270B4C23F8A /* PaywallView.swift */; };
+		9D89425363234DB4965ACF75 /* TwentyFortyEightEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F8DF2D4734F8C95C9ABE2 /* TwentyFortyEightEngineTests.swift */; };
+		9D974BE2AB314098964BD888 /* PocketArcadeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A95AC6406843E5A47F84CD /* PocketArcadeApp.swift */; };
+		9ECB0D5CA1844AD99182A5F0 /* GameCatalogLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Data/GameCatalogLoader.swift"; sourceTree = "<group>"; };
+		A29A44CA853843898E99C41D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895B68C0776841E5A5F7F973 /* OnboardingView.swift */; };
+		A672D5320D2F4470B9903660 /* privacy-nutrition-labels.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "AppStore/privacy-nutrition-labels.md"; sourceTree = "<group>"; };
+		A75D36AC7439435DA031F160 /* GameProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Models/GameProgress.swift"; sourceTree = "<group>"; };
+		A85654B1FBE1425CAD6DD734 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		A940575D36EC44069B0689AC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D6EAB73A88034D23B5D1275C /* PrivacyInfo.xcprivacy */; };
+		A96E7C00BDEC4BFCA679E6DD /* AsteroidAceScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/AsteroidAceScene.swift"; sourceTree = "<group>"; };
+		AC4C3A3755994C58AFBF6860 /* BrickBlitzScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/BrickBlitzScene.swift"; sourceTree = "<group>"; };
+		AD9AC48141D74D5B9ACF77CC /* PocketArcade */ = {isa = PBXNativeTarget; buildConfigurationList = FD93E6B717B244318165E64A /* Build configuration list for PBXNativeTarget "PocketArcade" */; buildPhases = ( 30B969199EAA47A9946AB696 /* Sources */, 40E915FA2856480982D82027 /* Frameworks */, 1066B205EAA041C48A8F0808 /* Resources */, ); buildRules = ( ); dependencies = ( ); name = PocketArcade; packageProductDependencies = ( 993AC15F3E84482BA95D562A /* SharedCore */, ); productName = PocketArcade; productReference = 2CD5B04216854E2B965BEAE6 /* PocketArcade.app */; productType = "com.apple.product-type.application"; };
+		B0E14D9E3ADF488A89215E82 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = PocketArcade/PocketArcade.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_ASSET_PATHS = "PocketArcade/Preview\\ Content"; DEVELOPMENT_TEAM = 7H7ZUG2WX8; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PocketArcade/Info.plist; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = net.boss888.pocketarcade; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES;}; name = Debug; };
+		B373DFA476D648D9A3D1225F /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5CD77E56854C1E9974B817 /* PDFKit.framework */; };
+		B623518564F945FCA5C1DDBC /* PocketArcadeTests */ = {isa = PBXGroup; children = (
+						07DB63BC5CB54043A2421DEA /* GameCatalogTests.swift */,
+						32BCE28881194CDA82AE3B77 /* GomokuRuleServiceTests.swift */,
+						F71B83ED5D05496BA5A17165 /* SharedCoreServiceTests.swift */,
+						BD9F8DF2D4734F8C95C9ABE2 /* TwentyFortyEightEngineTests.swift */,
+					); name = PocketArcadeTests; sourceTree = "<group>"; };
+		B641F9E7A64049AD8CAABF32 /* TwentyFortyEightScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF21968D6BB44D2AA1D19B6 /* TwentyFortyEightScene.swift */; };
+		BB9C269524D945C2A8BD3CC6 /* StackAttackScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C3741E37344F2999ACB0C /* StackAttackScene.swift */; };
+		BBBF08D219D54478BE4EC707 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = AD9AC48141D74D5B9ACF77CC /* PocketArcade */; targetProxy = 2C6C6BBC500045B4BD5B6DDE /* PBXContainerItemProxy */; };
+		BD9F8DF2D4734F8C95C9ABE2 /* TwentyFortyEightEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcadeTests/TwentyFortyEightEngineTests.swift"; sourceTree = "<group>"; };
+		BDF8CB9FC2CD41CBA4BD0142 /* SharedCore in Frameworks */ = {isa = PBXBuildFile; productRef = 993AC15F3E84482BA95D562A /* SharedCore */; };
+		BE0526E2211A458088678131 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4684A470913541A5B1920E4D /* UIKit.framework */; };
+		BE68EEB03B754A02B61F60FE /* Build configuration list for PBXNativeTarget "PocketArcadeTests" */ = {isa = XCConfigurationList; buildConfigurations = ( 76B9809E13F74829B23F327B /* Debug */, 7E639423939542C799FFA7A6 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C09955D261B34C4CB09501F4 /* SnakeEVOScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/SnakeEVOScene.swift"; sourceTree = "<group>"; };
+		C0C77E5302C44C8E9F695495 /* FrogDashScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/FrogDashScene.swift"; sourceTree = "<group>"; };
+		C217A5E24842497F9DA14308 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7AD94EDB5840EE9DCFF426 /* Network.framework */; };
+		C30F7CB01C9B4EB290EDE799 /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
+		C803082E15B04E59A33A1F31 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912230B53B74895946A68C0 /* GameModel.swift */; };
+		C97DF1E34C8446AC8510B4F5 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Views/AppRootView.swift"; sourceTree = "<group>"; };
+		CA56D12DC5D34F8083150AE6 /* SnakeEVOScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09955D261B34C4CB09501F4 /* SnakeEVOScene.swift */; };
+		D11B76E50F47415A873CC003 /* NetworkMonitorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F822EE55DE594DCEA02EE4C4 /* NetworkMonitorService.swift */; };
+		D390FA0993A44ACA866B3545 /* BubblePopScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E631DA4404756BAE6BDB0 /* BubblePopScene.swift */; };
+		D3A171C613784D4DB4234730 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D6EAB73A88034D23B5D1275C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketArcade/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		D903ECDD3FA040C488613FF7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DCAAAEB0DF9846CE86B35722 /* GomokuGoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0A3C5D573B44129B9F9CB4 /* GomokuGoScene.swift */; };
+		DD00CDF08C10409EB9F4630F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D903ECDD3FA040C488613FF7 /* AVFoundation.framework */; };
+		DDA1330ED3684D95BC1A7F27 /* RAGIndexLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A02149F5D46C5B83B5532 /* RAGIndexLoader.swift */; };
+		DDBD18FEF02A402CAB5A551A /* screenshot-plan.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "AppStore/screenshot-plan.md"; sourceTree = "<group>"; };
+		E3748595DD9740F7898DE254 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Services/AudioService.swift"; sourceTree = "<group>"; };
+		E6A75943A4B3467A8A79F6A9 /* XCLocalSwiftPackageReference "Packages/SharedCore" */ = {isa = XCLocalSwiftPackageReference; relativePath = Packages/SharedCore; };
+		E6CFC41CC0E948C39058137D /* SharedCoreServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71B83ED5D05496BA5A17165 /* SharedCoreServiceTests.swift */; };
+		E6D52C6B6A964EFF9D776BC8 /* GameProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C62285A2146CFA354273B /* GameProgressStore.swift */; };
+		E6FA0140EA6747878B424F84 /* Packages */ = {isa = PBXGroup; children = (
+					); name = Packages; sourceTree = "<group>"; };
+		E79702372D124525808D12A2 /* Frameworks */ = {isa = PBXGroup; children = (
+						D3A171C613784D4DB4234730 /* framework */,
+						8E3FC6448D0F4DCB981DC0E9 /* framework */,
+						A85654B1FBE1425CAD6DD734 /* framework */,
+						D903ECDD3FA040C488613FF7 /* framework */,
+						3F7AD94EDB5840EE9DCFF426 /* framework */,
+						3B5CD77E56854C1E9974B817 /* framework */,
+						4684A470913541A5B1920E4D /* framework */,
+						C30F7CB01C9B4EB290EDE799 /* framework */,
+					); name = Frameworks; sourceTree = "<group>"; };
+		E965379FD8B34BDBB2463DDC /* AsteroidAceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E7C00BDEC4BFCA679E6DD /* AsteroidAceScene.swift */; };
+		EA78E5505B494E6EAD90D173 /* ExportCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Services/ExportCoordinator.swift"; sourceTree = "<group>"; };
+		EC1D6A38104F4228BE510B6F /* BaseArcadeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/BaseArcadeScene.swift"; sourceTree = "<group>"; };
+		F02F56D1C1E04181A180A10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "PocketArcade/Assets.xcassets"; sourceTree = "<group>"; };
+		F35AD50474FD48B8B38BC9D0 /* Docs */ = {isa = PBXGroup; children = (
+						8A23B57BEDFC44FF952D8507 /* SELF_CHECK.md */,
+						2FE8B456CC5E4F11A0A56F69 /* README.md */,
+						35DE614A32EE4029B0D9EBD8 /* TODO_PHASE_2.md */,
+					); name = Docs; sourceTree = "<group>"; };
+		F66A87E4C14A4AE98DAA1D31 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535DBC3A01FB4652AC968867 /* PurchaseManager.swift */; };
+		F71B83ED5D05496BA5A17165 /* SharedCoreServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcadeTests/SharedCoreServiceTests.swift"; sourceTree = "<group>"; };
+		F822EE55DE594DCEA02EE4C4 /* NetworkMonitorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Services/NetworkMonitorService.swift"; sourceTree = "<group>"; };
+		F92485AC036046779B2D9260 /* MoleManiaScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/MoleManiaScene.swift"; sourceTree = "<group>"; };
+		FA9C3741E37344F2999ACB0C /* StackAttackScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketArcade/Scenes/StackAttackScene.swift"; sourceTree = "<group>"; };
+		FD15D64E37244F068392CF54 /* BrickBlitzScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C3A3755994C58AFBF6860 /* BrickBlitzScene.swift */; };
+		FD93E6B717B244318165E64A /* Build configuration list for PBXNativeTarget "PocketArcade" */ = {isa = XCConfigurationList; buildConfigurations = ( B0E14D9E3ADF488A89215E82 /* Debug */, 971B7110F18B42CFB6E2BF43 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = 4C1A1FA6B473462EA4E77C94 /* Project object */;
+}

@@ -1,0 +1,28 @@
+# App Store Copy
+
+## App Name
+掌心遊樂場 Pocket Arcade
+
+## Subtitle
+10 款離線復古小遊戲
+
+## Promotional Text
+打磚塊、貪吃蛇、2048、五子棋與更多街機玩法，一次收進口袋。沒網路也能玩。
+
+## Description
+掌心遊樂場 Pocket Arcade 把 10 款經典街機靈感重新打包成適合通勤、搭飛機與短暫休息的 iPhone / iPad 小遊戲合集。
+
+前三款免費開玩：磚塊爆破、貪吃蛇進化、方塊疊疊樂。喜歡的話，可用一次性內購解鎖全部 10 款，包含青蛙跳跳、泡泡消消、打地鼠狂熱、彈珠台、2048 Plus、射擊隕石與連線五子棋。
+
+特色：
+- 完全離線優先，沒有網路也能玩。
+- SwiftData 本地保存分數與進度。
+- Game Center 排行榜增加回訪動機。
+- StoreKit 2 一次解鎖全部遊戲。
+- 本地攻略資料與 AI fallback；AI 不可用時，核心遊戲照常使用。
+
+## Keywords
+offline games, arcade games, no wifi games, retro games, airplane mode, mini games, 2048, snake, brick breaker, gomoku
+
+## Rating Notes
+4+：抽象街機玩法，無寫實暴力、無成人內容。

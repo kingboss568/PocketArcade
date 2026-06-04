@@ -1,0 +1,183 @@
+[
+  {
+    "id": "brickBlitz",
+    "title": "磚塊爆破",
+    "englishTitle": "Brick Blitz",
+    "isFree": true,
+    "levelCount": 30,
+    "leaderboardID": "pocketarcade_brickblitz",
+    "mechanics": [
+      "單指左右滑動球拍",
+      "短按加速彈",
+      "清除 80% 即過關"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "打磚塊 Breakout"
+  },
+  {
+    "id": "snakeEVO",
+    "title": "貪吃蛇進化",
+    "englishTitle": "Snake EVO",
+    "isFree": true,
+    "levelCount": 20,
+    "leaderboardID": "pocketarcade_snakeevo",
+    "mechanics": [
+      "紅色食物 +2",
+      "藍色食物加速",
+      "黃色食物穿牆",
+      "單機雙人對戰"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "貪吃蛇 Snake"
+  },
+  {
+    "id": "stackAttack",
+    "title": "方塊疊疊樂",
+    "englishTitle": "Stack Attack",
+    "isFree": true,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_stackattack",
+    "mechanics": [
+      "炸彈方塊",
+      "救援模式每局 2 次",
+      "每 500 分加速"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "俄羅斯方塊 Tetris"
+  },
+  {
+    "id": "frogDash",
+    "title": "青蛙跳跳",
+    "englishTitle": "Frog Dash",
+    "isFree": false,
+    "levelCount": 20,
+    "leaderboardID": "pocketarcade_frogdash",
+    "mechanics": [
+      "車道與河流",
+      "星星解鎖青蛙皮膚",
+      "夜間能見度降低"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "Frogger"
+  },
+  {
+    "id": "bubblePop",
+    "title": "泡泡消消",
+    "englishTitle": "Bubble Pop",
+    "isFree": false,
+    "levelCount": 50,
+    "leaderboardID": "pocketarcade_bubblepop",
+    "mechanics": [
+      "三同色消除",
+      "彩虹泡泡",
+      "每 5 關 Boss 泡泡"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "Puzzle Bobble"
+  },
+  {
+    "id": "moleMania",
+    "title": "打地鼠狂熱",
+    "englishTitle": "Mole Mania",
+    "isFree": false,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_molemania",
+    "mechanics": [
+      "金鼠 +3",
+      "炸彈鼠 -2",
+      "連打觸發狂熱模式"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "Whack-a-Mole"
+  },
+  {
+    "id": "pinballPro",
+    "title": "彈珠台",
+    "englishTitle": "Pinball Pro",
+    "isFree": false,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_pinballpro",
+    "mechanics": [
+      "三種主題台",
+      "Multiball",
+      "Extra Ball 軌道"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "Pinball"
+  },
+  {
+    "id": "twentyFortyEight",
+    "title": "數字 2048 Plus",
+    "englishTitle": "2048 Plus",
+    "isFree": false,
+    "levelCount": 20,
+    "leaderboardID": "pocketarcade_twentyfortyeight",
+    "mechanics": [
+      "障礙格",
+      "乘法格",
+      "4096 / 8192 挑戰"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "2048"
+  },
+  {
+    "id": "asteroidAce",
+    "title": "射擊隕石",
+    "englishTitle": "Asteroid Ace",
+    "isFree": false,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_asteroidace",
+    "mechanics": [
+      "自動連射",
+      "補給箱升級武器",
+      "Boss 隕石"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "Space Invaders / Asteroids"
+  },
+  {
+    "id": "gomokuGo",
+    "title": "連線五子棋",
+    "englishTitle": "Gomoku Go",
+    "isFree": false,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_gomokugo",
+    "mechanics": [
+      "10x10 / 15x15",
+      "禁手提示",
+      "15 秒計時模式"
+    ],
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
+    "fetchedAt": "2026-05-20T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
+    "reference": "五子棋"
+  }
+]

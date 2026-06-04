@@ -1,0 +1,3 @@
+app_identifier(ENV.fetch("APP_IDENTIFIER", "com.example.app"))
+team_name(ENV.fetch("APP_TEAM_NAME", "Yu Shiung Jiang"))
+itc_team_name(ENV.fetch("APP_TEAM_NAME", "Yu Shiung Jiang"))

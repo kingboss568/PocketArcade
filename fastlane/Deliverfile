@@ -1,0 +1,8 @@
+app_identifier ENV.fetch("APP_IDENTIFIER", "com.example.app")
+metadata_path "./fastlane/metadata"
+screenshots_path "./fastlane/screenshots"
+platform "ios"
+languages(["zh-Hant"])
+submit_for_review false
+automatic_release false
+skip_binary_upload true
