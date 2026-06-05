@@ -39,6 +39,10 @@ class AppStoreConnectClient
     request(:post, path, body: body)
   end
 
+  def patch(path, body)
+    request(:patch, path, body: body)
+  end
+
   def delete(path)
     request(:delete, path)
   end
@@ -53,6 +57,7 @@ class AppStoreConnectClient
 
     request = case method
               when :post then Net::HTTP::Post.new(uri)
+              when :patch then Net::HTTP::Patch.new(uri)
               when :delete then Net::HTTP::Delete.new(uri)
               else Net::HTTP::Get.new(uri)
               end
@@ -269,17 +274,19 @@ def install_profile(profile)
   puts("Installed: #{install_path}")
 end
 
-client = AppStoreConnectClient.new
-bundle = ensure_bundle_id(client)
-ensure_capability(client, bundle, "GAME_CENTER")
-ensure_capability(client, bundle, "IN_APP_PURCHASE")
+if __FILE__ == $PROGRAM_NAME
+  client = AppStoreConnectClient.new
+  bundle = ensure_bundle_id(client)
+  ensure_capability(client, bundle, "GAME_CENTER")
+  ensure_capability(client, bundle, "IN_APP_PURCHASE")
 
-if (app = app_record(client))
-  IAP_PRODUCT_IDS.each { |args| ensure_iap(client, app, *args) }
-else
-  warn("App record for #{BUNDLE_ID} does not exist yet. Create it in App Store Connect before IAP setup.")
+  if (app = app_record(client))
+    IAP_PRODUCT_IDS.each { |args| ensure_iap(client, app, *args) }
+  else
+    warn("App record for #{BUNDLE_ID} does not exist yet. Create it in App Store Connect before IAP setup.")
+  end
+
+  certificate = distribution_certificate(client)
+  profile = recreate_profile(client, bundle, certificate)
+  install_profile(profile)
 end
-
-certificate = distribution_certificate(client)
-profile = recreate_profile(client, bundle, certificate)
-install_profile(profile)
