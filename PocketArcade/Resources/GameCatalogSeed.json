@@ -7,15 +7,16 @@
     "levelCount": 30,
     "leaderboardID": "pocketarcade_brickblitz",
     "mechanics": [
-      "單指左右滑動球拍",
-      "短按加速彈",
-      "清除 80% 即過關"
+      "拖曳控制球拍",
+      "彩色磚塊有耐久度",
+      "道具：加寬球拍、多球",
+      "3 條命，全清過關升級"
     ],
+    "reference": "打磚塊 Breakout",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "打磚塊 Breakout"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   },
   {
     "id": "snakeEVO",
@@ -25,16 +26,16 @@
     "levelCount": 20,
     "leaderboardID": "pocketarcade_snakeevo",
     "mechanics": [
-      "紅色食物 +2",
-      "藍色食物加速",
-      "黃色食物穿牆",
-      "單機雙人對戰"
+      "滑動改變方向",
+      "紅食物 +1、金食物 +5",
+      "藍食物短暫加速",
+      "撞牆或咬到自己結束"
     ],
+    "reference": "貪吃蛇 Snake",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "貪吃蛇 Snake"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   },
   {
     "id": "stackAttack",
@@ -44,15 +45,73 @@
     "levelCount": 0,
     "leaderboardID": "pocketarcade_stackattack",
     "mechanics": [
-      "炸彈方塊",
-      "救援模式每局 2 次",
-      "每 500 分加速"
+      "點擊放下移動中的方塊",
+      "沒疊準的部分會被切掉",
+      "完美堆疊有加分與加寬",
+      "越疊越高速度越快"
     ],
+    "reference": "Stack 疊塔",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "俄羅斯方塊 Tetris"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "pongDuel",
+    "title": "乒乓對戰",
+    "englishTitle": "Pong Duel",
+    "isFree": true,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_pongduel",
+    "mechanics": [
+      "拖曳下方球拍左右移動",
+      "對戰 AI，先得 7 分獲勝",
+      "連續來回球速漸增",
+      "勝場越多 AI 越強"
+    ],
+    "reference": "Pong",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "memoryMatch",
+    "title": "記憶翻牌",
+    "englishTitle": "Memory Match",
+    "isFree": true,
+    "levelCount": 8,
+    "leaderboardID": "pocketarcade_memorymatch",
+    "mechanics": [
+      "翻開兩張相同圖案配對",
+      "步數越少分數越高",
+      "連續配對有 Combo 加分",
+      "過關後牌數增加"
+    ],
+    "reference": "Memory 翻牌配對",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "fruitCatch",
+    "title": "接水果",
+    "englishTitle": "Fruit Catch",
+    "isFree": true,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_fruitcatch",
+    "mechanics": [
+      "拖曳籃子左右移動",
+      "接住水果得分",
+      "炸彈千萬別接",
+      "連續接中有 Combo"
+    ],
+    "reference": "Catch 接物遊戲",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   },
   {
     "id": "frogDash",
@@ -62,15 +121,16 @@
     "levelCount": 20,
     "leaderboardID": "pocketarcade_frogdash",
     "mechanics": [
-      "車道與河流",
-      "星星解鎖青蛙皮膚",
-      "夜間能見度降低"
+      "點擊向前跳，滑動左右移",
+      "避開車流、踩浮木過河",
+      "抵達終點過關升級",
+      "小心時間限制"
     ],
+    "reference": "Frogger",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "Frogger"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   },
   {
     "id": "bubblePop",
@@ -80,15 +140,16 @@
     "levelCount": 50,
     "leaderboardID": "pocketarcade_bubblepop",
     "mechanics": [
-      "三同色消除",
-      "彩虹泡泡",
-      "每 5 關 Boss 泡泡"
+      "拖曳瞄準、放開發射",
+      "三顆同色即消除",
+      "懸空泡泡會掉落加分",
+      "泡泡到底線即結束"
     ],
+    "reference": "Puzzle Bobble",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "Puzzle Bobble"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   },
   {
     "id": "moleMania",
@@ -98,15 +159,16 @@
     "levelCount": 0,
     "leaderboardID": "pocketarcade_molemania",
     "mechanics": [
-      "金鼠 +3",
-      "炸彈鼠 -2",
-      "連打觸發狂熱模式"
+      "點擊冒頭的地鼠",
+      "金鼠 +5、炸彈鼠 -3",
+      "60 秒限時挑戰",
+      "越打越快"
     ],
+    "reference": "Whack-a-Mole",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "Whack-a-Mole"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   },
   {
     "id": "pinballPro",
@@ -116,33 +178,35 @@
     "levelCount": 0,
     "leaderboardID": "pocketarcade_pinballpro",
     "mechanics": [
-      "三種主題台",
-      "Multiball",
-      "Extra Ball 軌道"
+      "點左右半邊控制撥桿",
+      "保險桿碰撞得分",
+      "一局 3 顆球",
+      "連續碰撞有倍率"
     ],
+    "reference": "Pinball",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "Pinball"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   },
   {
     "id": "twentyFortyEight",
-    "title": "數字 2048 Plus",
+    "title": "數字 2048",
     "englishTitle": "2048 Plus",
     "isFree": false,
     "levelCount": 20,
-    "leaderboardID": "pocketarcade_twentyfortyeight",
+    "leaderboardID": "pocketarcade_2048plus",
     "mechanics": [
-      "障礙格",
-      "乘法格",
-      "4096 / 8192 挑戰"
+      "滑動合併相同數字",
+      "合出 2048 獲勝後可續玩",
+      "每步都要想好",
+      "無路可走即結束"
     ],
+    "reference": "2048",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "2048"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   },
   {
     "id": "asteroidAce",
@@ -152,15 +216,16 @@
     "levelCount": 0,
     "leaderboardID": "pocketarcade_asteroidace",
     "mechanics": [
-      "自動連射",
-      "補給箱升級武器",
-      "Boss 隕石"
+      "拖曳移動戰機自動開火",
+      "大隕石會分裂成小隕石",
+      "清光進入下一波",
+      "3 條命"
     ],
+    "reference": "Asteroids",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "Space Invaders / Asteroids"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   },
   {
     "id": "gomokuGo",
@@ -170,14 +235,148 @@
     "levelCount": 0,
     "leaderboardID": "pocketarcade_gomokugo",
     "mechanics": [
-      "10x10 / 15x15",
-      "禁手提示",
-      "15 秒計時模式"
+      "點擊棋盤落子",
+      "先連成五子獲勝",
+      "與 AI 對弈",
+      "勝利依步數計分"
     ],
+    "reference": "五子棋",
     "sourceName": "企劃案A_Pocket_Arcade.md",
-    "sourceURL": "local://C:/Users/jushiung/AppData/Local/Temp/企劃案A_Pocket_Arcade.md",
-    "fetchedAt": "2026-05-20T00:00:00Z",
-    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled.",
-    "reference": "五子棋"
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "skyHop",
+    "title": "跳跳樂",
+    "englishTitle": "Sky Hop",
+    "isFree": false,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_skyhop",
+    "mechanics": [
+      "拖曳控制左右移動",
+      "自動彈跳，往上爬升",
+      "彈簧跳更高、雲朵會消失",
+      "掉下去就結束"
+    ],
+    "reference": "Jump 跳台遊戲",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "rocketRush",
+    "title": "火箭飛行",
+    "englishTitle": "Rocket Rush",
+    "isFree": false,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_rocketrush",
+    "mechanics": [
+      "點擊噴射上升",
+      "穿過能量閘門得分",
+      "避開障礙柱",
+      "越飛越快"
+    ],
+    "reference": "Flappy 飛行閃避",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "laneRacer",
+    "title": "極速閃避",
+    "englishTitle": "Lane Racer",
+    "isFree": false,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_laneracer",
+    "mechanics": [
+      "左右滑動切換車道",
+      "閃避來車",
+      "金幣加分",
+      "速度持續提升"
+    ],
+    "reference": "Lane Racer 賽車",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "reversiRoyale",
+    "title": "黑白棋",
+    "englishTitle": "Reversi Royale",
+    "isFree": false,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_reversiroyale",
+    "mechanics": [
+      "點擊合法位置落子",
+      "夾住對方棋子翻面",
+      "棋盤滿時棋多者勝",
+      "角落是關鍵"
+    ],
+    "reference": "Reversi 黑白棋",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "mineSweeper",
+    "title": "掃雷高手",
+    "englishTitle": "Mine Sweeper",
+    "isFree": false,
+    "levelCount": 10,
+    "leaderboardID": "pocketarcade_minesweeper",
+    "mechanics": [
+      "點擊翻開格子",
+      "長按插旗標記地雷",
+      "數字代表周圍地雷數",
+      "全部翻開即獲勝"
+    ],
+    "reference": "Minesweeper 掃雷",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "gemCrush",
+    "title": "寶石消消樂",
+    "englishTitle": "Gem Crush",
+    "isFree": false,
+    "levelCount": 30,
+    "leaderboardID": "pocketarcade_gemcrush",
+    "mechanics": [
+      "滑動交換相鄰寶石",
+      "三顆連線即消除",
+      "連鎖反應大量得分",
+      "步數內達標過關"
+    ],
+    "reference": "Match-3 三消",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
+  },
+  {
+    "id": "invaderStorm",
+    "title": "太空侵略者",
+    "englishTitle": "Invader Storm",
+    "isFree": false,
+    "levelCount": 0,
+    "leaderboardID": "pocketarcade_invaderstorm",
+    "mechanics": [
+      "拖曳戰機自動開火",
+      "殲滅整批侵略者",
+      "小心敵方彈幕",
+      "一波比一波兇猛"
+    ],
+    "reference": "Space Invaders",
+    "sourceName": "企劃案A_Pocket_Arcade.md",
+    "sourceURL": "local://PocketArcade",
+    "fetchedAt": "2026-06-11T00:00:00Z",
+    "licenseNote": "User-provided product plan. Implementation uses original code and generated in-repo draft art; no third-party game assets are bundled."
   }
 ]

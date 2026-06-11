@@ -3,68 +3,62 @@ import SwiftData
 import SwiftUI
 import SharedCore
 
+/// 全螢幕遊戲容器：SpriteView 滿版，HUD 與按鈕全部在場景內，SwiftUI 不疊任何會擋觸控的元件。
 struct GameHostView: View {
     let game: GameModel
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var gameCenter: GameCenterService
-    @State private var scene: BaseArcadeScene
-    @State private var currentScore = 0
-    @State private var currentLevel = 1
-    @State private var saveMessage: String?
+    @State private var scene: BaseArcadeScene?
+    @State private var sceneID = UUID()
     @State private var showCoach = false
-
-    init(game: GameModel) {
-        self.game = game
-        _scene = State(initialValue: ArcadeSceneFactory.makeScene(for: game))
-    }
+    @State private var lastScore = 0
+    @State private var lastLevel = 1
 
     var body: some View {
-        ZStack(alignment: .top) {
-            SpriteView(scene: scene, options: [.allowsTransparency]).ignoresSafeArea(edges: .bottom)
-            VStack(spacing: 10) {
-                HStack {
-                    metric("Score", value: currentScore)
-                    metric("Level", value: currentLevel)
-                    Spacer()
-                    Button { showCoach = true } label: { Label("Coach", systemImage: "sparkles") }
-                        .buttonStyle(.borderedProminent).tint(ArcadeTheme.neonRed)
-                }
-                .font(.caption.monospaced().weight(.bold))
-                .padding(.horizontal)
-                if let saveMessage {
-                    Text(saveMessage).font(.caption.monospaced()).foregroundStyle(ArcadeTheme.neonYellow)
-                }
-            }.padding(.top, 10)
-        }
-        .toolbar {
-            ToolbarItemGroup(placement: .bottomBar) {
-                Button("保存分數") { saveProgress() }
-                Spacer()
-                Text(game.title).font(.caption.monospaced().weight(.bold))
+        ZStack {
+            Color.black.ignoresSafeArea()
+            if let scene {
+                SpriteView(scene: scene, preferredFramesPerSecond: 60)
+                    .ignoresSafeArea()
+                    .id(sceneID)
             }
         }
-        .navigationTitle(game.englishTitle)
-        .navigationBarTitleDisplayMode(.inline)
-        .sheet(isPresented: $showCoach) { ArcadeCoachView(game: game, recentScore: currentScore) }
-        .onAppear {
-            scene.onScoreChanged = { score in Task { @MainActor in currentScore = score } }
-            scene.onLevelChanged = { level in Task { @MainActor in currentLevel = level } }
-        }
+        .navigationBarBackButtonHidden(true)
+        .toolbar(.hidden, for: .navigationBar)
+        .toolbar(.hidden, for: .tabBar)
+        .statusBarHidden(true)
+        .persistentSystemOverlays(.hidden)
+        .sheet(isPresented: $showCoach) { ArcadeCoachView(game: game, recentScore: lastScore) }
+        .onAppear { if scene == nil { rebuildScene() } }
         .onDisappear { saveProgress() }
     }
 
-    private func metric(_ label: String, value: Int) -> some View {
-        VStack(alignment: .leading, spacing: 2) {
-            Text(label.uppercased()).foregroundStyle(.white.opacity(0.7))
-            Text("\(value)").foregroundStyle(ArcadeTheme.neonYellow)
-        }.padding(8).background(.black.opacity(0.35), in: RoundedRectangle(cornerRadius: 12))
+    private func rebuildScene() {
+        let newScene = ArcadeSceneFactory.makeScene(for: game)
+        newScene.onScoreChanged = { score in Task { @MainActor in lastScore = score } }
+        newScene.onLevelChanged = { level in Task { @MainActor in lastLevel = level } }
+        newScene.onGameOver = { score, level in
+            Task { @MainActor in
+                lastScore = score
+                lastLevel = level
+                saveProgress()
+            }
+        }
+        newScene.onExit = { Task { @MainActor in dismiss() } }
+        newScene.onRestart = { Task { @MainActor in rebuildScene() } }
+        newScene.onRequestCoach = { Task { @MainActor in showCoach = true } }
+        scene = newScene
+        sceneID = UUID()
     }
 
     private func saveProgress() {
+        guard lastScore > 0 else { return }
         do {
-            let record = try GameProgressStore.record(score: currentScore, level: currentLevel, for: game, in: modelContext)
+            let record = try GameProgressStore.record(score: lastScore, level: lastLevel, for: game, in: modelContext)
             gameCenter.submit(score: record.highScore, leaderboardID: game.leaderboardID)
-            saveMessage = "Saved high score \(record.highScore)"
-        } catch { saveMessage = "Save failed: \(error.localizedDescription)" }
+        } catch {
+            // 本機儲存失敗不阻斷遊戲流程
+        }
     }
 }

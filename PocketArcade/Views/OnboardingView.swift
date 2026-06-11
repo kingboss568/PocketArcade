@@ -6,9 +6,9 @@ struct OnboardingView: View {
     @State private var page = 0
 
     private let pages = [
-        ("掌心遊樂場", "10 款復古街機，地鐵、飛機、等人時都能開一局。", "sparkles"),
+        ("掌心遊樂場", "20 款復古街機，地鐵、飛機、等人時都能開一局。", "sparkles"),
         ("離線優先", "遊戲與音效本地打包；沒網路時自動隱藏廣告入口。", "wifi.slash"),
-        ("一次解鎖", "前 3 款免費，$2.99 解鎖全部 10 款，分數同步 Game Center。", "lock.open.fill")
+        ("一次解鎖", "前 6 款免費，$2.99 解鎖全部 20 款，分數同步 Game Center。", "lock.open.fill")
     ]
 
     var body: some View {

@@ -11,10 +11,10 @@ struct PaywallView: View {
         ScrollView {
             VStack(spacing: 22) {
                 Text("UNLOCK THE CABINET").font(ArcadeTheme.headline).foregroundStyle(.white).multilineTextAlignment(.center)
-                Text("解鎖 \(highlightedGame.title) 與全部 10 款遊戲。一次購買，永久保留。")
+                Text("解鎖 \(highlightedGame.title) 與全部 20 款遊戲。一次購買，永久保留。")
                     .font(ArcadeTheme.body).foregroundStyle(.white.opacity(0.76)).multilineTextAlignment(.center)
                 VStack(spacing: 12) {
-                    Button { Task { await purchase(.unlockAll) } } label: { paywallRow(title: "解鎖全部 10 款", subtitle: price(for: .unlockAll, fallback: "$2.99"), icon: "lock.open.fill") }
+                    Button { Task { await purchase(.unlockAll) } } label: { paywallRow(title: "解鎖全部 20 款", subtitle: price(for: .unlockAll, fallback: "$2.99"), icon: "lock.open.fill") }
                     Button { Task { await purchase(.removeAds) } } label: { paywallRow(title: "去除廣告入口", subtitle: price(for: .removeAds, fallback: "$1.99"), icon: "eye.slash.fill") }
                     Button("恢復購買") { Task { await purchaseManager.restore() } }.font(.footnote.monospaced().weight(.bold))
                 }

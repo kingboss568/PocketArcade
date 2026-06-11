@@ -2,11 +2,12 @@ import XCTest
 @testable import PocketArcade
 
 final class GameCatalogTests: XCTestCase {
-    func testCatalogHasTenGamesWithThreeFreeEntries() {
+    func testCatalogHasTwentyGamesWithSixFreeEntries() {
         let games = GameCatalogLoader.fallback
-        XCTAssertEqual(games.count, 10)
-        XCTAssertEqual(games.filter(\.isFree).count, 3)
-        XCTAssertEqual(games.filter { !$0.isFree }.count, 7)
+        XCTAssertEqual(games.count, 20)
+        XCTAssertEqual(games.filter(\.isFree).count, 6)
+        XCTAssertEqual(games.filter { !$0.isFree }.count, 14)
+        XCTAssertEqual(Set(games.map(\.id)).count, ArcadeGameID.allCases.count)
     }
 
     func testLeaderboardIDsAreUnique() {

@@ -1,4 +1,4 @@
-The first three games are free: Brick Blitz, Snake EVO, Stack Attack.
+The first six games are free: Brick Blitz, Snake EVO, Stack Attack, Pong Duel, Memory Match, and Fruit Catch.
 
 Premium games are gated by net.boss888.pocketarcade.unlockall. Remove ads product ID: net.boss888.pocketarcade.removeads.
 

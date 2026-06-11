@@ -7,7 +7,7 @@
 
 ## Pass 2 - Data, Deterministic Logic, AI Fallback, Errors
 
-- Seed data includes 10 games and source trace fields.
+- Seed data includes 20 games and source trace fields.
 - 2048 and Gomoku have deterministic services and unit tests.
 - StoreKit entitlements are deterministic through `EntitlementResolver`.
 - AI fallback returns 「AI 功能目前不可用」.

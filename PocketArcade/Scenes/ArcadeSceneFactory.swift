@@ -14,6 +14,16 @@ enum ArcadeSceneFactory {
         case .twentyFortyEight: scene = TwentyFortyEightScene(game: game)
         case .asteroidAce: scene = AsteroidAceScene(game: game)
         case .gomokuGo: scene = GomokuGoScene(game: game)
+        case .pongDuel: scene = PongDuelScene(game: game)
+        case .skyHop: scene = SkyHopScene(game: game)
+        case .rocketRush: scene = RocketRushScene(game: game)
+        case .laneRacer: scene = LaneRacerScene(game: game)
+        case .memoryMatch: scene = MemoryMatchScene(game: game)
+        case .reversiRoyale: scene = ReversiRoyaleScene(game: game)
+        case .mineSweeper: scene = MineSweeperScene(game: game)
+        case .gemCrush: scene = GemCrushScene(game: game)
+        case .invaderStorm: scene = InvaderStormScene(game: game)
+        case .fruitCatch: scene = FruitCatchScene(game: game)
         }
         scene.scaleMode = .resizeFill
         return scene

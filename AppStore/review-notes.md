@@ -1,6 +1,6 @@
 # App Review Notes
 
-- The first three games are free: Brick Blitz, Snake EVO, Stack Attack.
+- The first six games are free: Brick Blitz, Snake EVO, Stack Attack, Pong Duel, Memory Match, and Fruit Catch.
 - Premium games are gated by `net.boss888.pocketarcade.unlockall`.
 - Remove ads product ID: `net.boss888.pocketarcade.removeads`.
 - This handoff build does not include the GoogleMobileAds SDK; ad UI is protocol-gated and can stay hidden until a real provider is added.
